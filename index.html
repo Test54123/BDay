@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Lobster" rel="stylesheet">
+</head>
+<body>
+    <div class="wish-container">
+        <p class="wish-text"></p>
+    </div>
+    <div class="dialogue-box">
+        <button class="btn btn-danger" id="n">No</button>
+        <button class="btn btn-success" id="y">Yes</button>
+    </div>
+    <div class="background"><video loop id="video"><source src="video/movie.mp4" type="video/mp4"></video></div>
+    <div class="mask">
+
+        <audio loop id="music"><source src="audio/14%20-%20Mind%20Games.mp3" type="audio/mpeg"></audio>
+        <img class="greeting" src="images/greet.svg">
+        <img style="width:100%;height:100%;" src="images/confetti.gif">
+        <img style="position:absolute;right:5%;top:10%;width:6%;animation:spinImage 3s linear infinite;" src="images/wink.png">
+        <img style="position:absolute;left:5%;bottom:10%;width:10%;animation:spinImage 2.5s linear infinite;" src="images/cake.png">
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
